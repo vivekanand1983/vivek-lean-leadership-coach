@@ -15,5 +15,4 @@ if password != "Priyav@1983!":
 query = st.text_input("Ask your lean or six sigma question:")
 if query:
     st.write("Generating answer from Vivek's RAG library...")
-    # Simulated answer placeholder
     st.success("This is a placeholder answer based on your lean & six sigma library.")
