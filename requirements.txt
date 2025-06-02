@@ -1,5 +1,4 @@
 streamlit
 openai
 llama-index==0.10.28
-qdrant-client
-pydantic<2  # Required to avoid version conflict with qdrant
+qdrant-client==1.6.1
