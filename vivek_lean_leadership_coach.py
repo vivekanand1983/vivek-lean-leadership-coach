@@ -1,4 +1,3 @@
-
 import streamlit as st
 from openai import OpenAI
 
@@ -11,7 +10,6 @@ password = st.text_input("Enter password to continue:", type="password")
 if password != "Priyav@1983!":
     st.stop()
 
-# Ask user for input
 query = st.text_input("Ask your lean or six sigma question:")
 if query:
     st.write("Generating answer from Vivek's RAG library...")
